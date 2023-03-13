@@ -35,8 +35,8 @@ class CronController extends Controller
     		CURLOPT_POSTFIELDS => "{\n    \"personalizations\": [\n        {\n            \"to\": [\n                {\n                    \"email\": \"sample210@gmail.com\"\n                }\n            ],\n            \"subject\": \"Hello, World!\"\n        }\n    ],\n    \"from\": {\n        \"email\": \"sample@stackcru.com\"\n    },\n    \"content\": [\n        {\n            \"type\": \"text/plain\",\n            \"value\": \"Hello, World!\"\n        }\n    ]\n}",
     		CURLOPT_HTTPHEADER => [
     			"content-type: application/json",
-    			"x-rapidapi-host: rapidprod-sendgrid-v1.p.rapidapi.com",
-    			"x-rapidapi-key: ae3bae136amshf7d108a12826cb6p1dcaa1jsn80a0aa15bd95"
+    			"x-rapidapi-host: test",
+    			"x-rapidapi-key: test"
     		],
     	]);
 
